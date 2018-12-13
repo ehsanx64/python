@@ -3,6 +3,6 @@
 ### Use a function to say Hello
 
 def sayHello(name):
-    print "Hello " + name + "!"
+    print("Hello " + name + "!")
 
 sayHello("User")
