@@ -16,14 +16,14 @@ def say_hello(name):
 
 # Greet the given name, nothing printed result returned
 def get_say_hello(name):
-        return "Hello dear " + name
+	return "Hello dear " + name
 
 # Write content to given filename
 def write_data(filename, content):
-        outfile = filename
-        fout = open(outfile, "w")
-        fout.write(content)
-        fout.close()
+	outfile = filename
+	fout = open(outfile, "w")
+	fout.write(content)
+	fout.close()
 
 # Program entry
 def main():
@@ -45,7 +45,6 @@ def main():
 	fin = open(sys.argv[1], "r")
 	text = fin.readlines()
 	theName = text[0].strip()
-
 
 	# Write the outfile data to output file path
 	write_data(sys.argv[2], get_say_hello(theName))
