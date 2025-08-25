@@ -1,8 +1,7 @@
 #!/usr/bin/python
 
 ### Use a function to say Hello
-
-def sayHello(name):
+def say_hello(name):
     print("Hello " + name + "!")
 
-sayHello("User")
+say_hello("User")
