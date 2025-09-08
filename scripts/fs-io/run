@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+./fs-io.py the-name.txt output.txt
